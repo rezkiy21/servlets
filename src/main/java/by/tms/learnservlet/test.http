@@ -1,0 +1,21 @@
+GET http://localhost:8080/main
+
+###
+
+GET http://localhost:8080/logout
+
+###
+
+POST http://localhost:8080/reg
+Content-Type: application/x-www-form-urlencoded
+
+name=SimonTest&pass=12345678&login=a@a.by&age=22
+
+###
+
+POST http://localhost:8080/auth
+Content-Type: application/x-www-form-urlencoded
+
+pass=12345678&login=a@a.by
+
+###
